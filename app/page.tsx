@@ -27,6 +27,7 @@ export default function Home() {
           {/* Image */}
           <figure className='w-full'>
             <Image
+              className='rounded-2xl'
               src='/prism.png'
               alt='Prism Hero'
               width={640}
