@@ -4,16 +4,16 @@ export default function Home() {
   return (
     <main className='m-4'>
       {/* Base Card */}
-      <section className='bg-gradient-to-b from-gray-50 to-[#EDF0F3] py-14 shadow-sm rounded'>
-        <div className='rounded px-3 py-12'>
+      <section className='bg-gradient-to-b from-gray-50 to-[#EDF0F3] py-14 lg:py-24 shadow-sm md:shadow-md lg:shadow-lg rounded'>
+        <div className='rounded px-3 py-12 lg:flex lg:px-24 lg:py-0 lg:gap-8'>
           {/* Content */}
           <div>
             {/* Heading */}
-            <h1 className='text-4xl text-neutral-900 font-semibold mb-4'>
+            <h1 className='text-4xl md:text-5xl lg:text-6xl text-neutral-900 font-semibold mb-4 md:mb-6 lg:mb-8'>
               Well crafted abstract images
             </h1>
             {/* Description */}
-            <p className='text-lg font-normal text-neutral-600 mb-8 md:mb-16'>
+            <p className='text-lg md:text-xl font-normal text-neutral-600 mb-8 md:mb-16'>
               High quality abstract images for your projects, wallpaper and
               presentations.
             </p>
